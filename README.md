@@ -7,15 +7,13 @@ The goal of this project is to develop an executable multi-factor indexing algor
 
 Javier Mendez, Grant DePalma, Dave Rea, Subbaiah Kotha.
 
-**Group 1:**
-
-Javier and Subbaiah
+**Group 1:**  
+Javier and Subbaiah  
 
 **Quantopian**
 
-**Group 2:**
-
-Grant and Dave
+**Group 2:**  
+Grant and Dave  
 
 **Alpaca**
 
