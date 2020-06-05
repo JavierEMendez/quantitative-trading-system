@@ -7,4 +7,19 @@ The goal of this project is to develop an executable multi-factor indexing algor
 
 Javier Mendez, Grant DePalma, Dave Rea, Subbaiah Kotha.
 
+**Group 1:**
+Javier and Subbaiah
+**Quantopian**
 
+**Group 2:**
+Grant and Dave
+**Alpaca**
+
+### Version 1.0.0
+
+Live Date: June 23, 2020
+
+Goals:
+1. In groups of 2, develop the Alpaca and Quantopian aspects of the project for the first week of the project. 
+2. Meet halfway on June 13 after structure has been created to finalize the structure and begin testing to optimize results. 
+3. On June 20, make finishing touches and final changes to ensure profitability and over-performance relative to the market. 
