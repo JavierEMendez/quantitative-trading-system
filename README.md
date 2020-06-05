@@ -33,3 +33,6 @@ Goals:
 [Metin's Research Notebook - Pipeline](
 
 [Metin's Research Notebook - ETF](
+
+[How to put a Quantopian Pipeline into Alpaca](https://alpaca.markets/docs/alpaca-works-with/quantopian-to-pipeline-live/
+)
