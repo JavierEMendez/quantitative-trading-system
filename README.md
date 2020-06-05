@@ -25,3 +25,11 @@ Goals:
 1. In groups of 2, develop the Alpaca and Quantopian aspects of the project for the first week of the project. 
 2. Meet halfway on June 13 after structure has been created to finalize the structure and begin testing to optimize results. 
 3. On June 20, make finishing touches and final changes to ensure profitability and over-performance relative to the market. 
+
+
+## Resources: 
+[Article on Multi Factor Small Beta](https://www.quantopian.com/posts/multi-factor-smart-beta-strategy-you-can-actually-use-with-confidence)
+
+[Metin's Research Notebook - Pipeline](
+
+[Metin's Research Notebook - ETF](
