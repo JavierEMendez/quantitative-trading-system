@@ -74,7 +74,7 @@ Goals:
 
 ## Results
 
-[Image of Returns](Images/numbers-final.jpg)
+[Image of Returns](Images/numbers-final.JPG)
 
 [Image of Tearsheet from Research (broken into quantiles)](Images/tearsheet.png)
 
