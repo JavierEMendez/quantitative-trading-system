@@ -74,9 +74,9 @@ Goals:
 
 ## Results
 
-[Image of Returns](../images/numbers-final.jpg)
+[Image of Returns](Images/numbers-final.jpg)
 
-[Image of Tearsheet from Research (broken into quantiles)](../images/tearsheet.png)
+[Image of Tearsheet from Research (broken into quantiles)](Images/tearsheet.png)
 
 ## Resources: 
 [Article on Multi Factor Small Beta](https://www.quantopian.com/posts/multi-factor-smart-beta-strategy-you-can-actually-use-with-confidence)
