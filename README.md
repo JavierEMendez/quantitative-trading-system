@@ -28,12 +28,12 @@ Grant and Dave
 
 ### Version 1.0.0
 
-Live Date: June 23, 2020
+Live Date: June 18, 2020
 
 Goals:
 1. In groups of 2, develop the Alpaca and Quantopian aspects of the project for the first week of the project. 
 2. Meet halfway on June 13 after structure has been created to finalize the structure and begin testing to optimize results. 
-3. On June 20, make finishing touches and final changes to ensure profitability and over-performance relative to the market. 
+3. On June 16, make finishing touches and final changes to ensure profitability and over-performance relative to the market. 
 
 
 ## Resources: 
