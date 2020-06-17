@@ -1,6 +1,6 @@
 # multifactor-index
 
-![returns](multifactor-index/images/returns-final.jpg)
+![returns](images/returns-final.JPG)
 
 
 
