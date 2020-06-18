@@ -1,13 +1,53 @@
-# multifactor-index
+# Quantitative Trading System
+## NU Fintech Bootcamp: Project 1
 
-![returns](Images/returns-final.JPG)
+## Project Overview
+Our NU Fintech team built a functional quantitative trading system that implements strategies researched and tested in Quantopian. Those strategies are then executed in Alpaca- the commission-free stock trading API. 
 
+## Purpose
+The purpose of this project is to successfully build a foundational quantitative trading system that can be evolved upon as our fintech class continues. The goal is to test and implement quantitative strategies aimed toward maximal risk-adjusted returns in the least amount of time possible. 
 
+## Business Significance
+    - Saves time by using a simpler process going from research to execution
+    - Saves time and increases probability of returns by allowing researchers and traders to focus on iterating on their talent opposed to spending time on development and data prep
+    - Gives independent quantitative traders the ability to invest/trade on their own.
+    
+## Costs
+    - Time spent on factor research
+    - Time spent building algorithms
+    - Time spent translating quantopian algorithms to a format that can be executed in Alpace
+    - Normal costs of investing, all the tools involved are free
 
-## Defining a Purpose
-The goal of this project is to develop an executable multi-factor indexing algorythim that creates a mean's tested portfolio for long-term investment purposes that maximizes risk-adjusted returns.
+## Tools
+[Alpaca](https://alpaca.markets/)  
+[Python Library-pylivetrader](https://github.com/alpacahq/pylivetrader)  
+[Quantopian Notebooks](https://www.quantopian.com/notebooks)  
+[Quantopian Algorithms](https://www.quantopian.com/algorithms)  
+[Visual Studio](https://visualstudio.microsoft.com/)  
+[Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/)  j
 
-## Introduction
+## Methodology
+1. Quantitative Research Notebook in Quantopian
+2. Backtest Pipeline/Algorithm 
+3. Translate quantopian algorithm to pylivetrader
+4. Connect Alpaca account to algorithm
+5. Run algorithm in command Line
+6. Monitor Results on Alpaca Interface
+
+## Project Timeline
+    - June 2: Start Project
+    - June 13: First Draft of Project completed
+    - June 16: Final Draft of Project completed, Test System in live environment
+    - June 17: Test System in live environment
+    - June 18: Presentation
+    - After: can be iterated on as bootcamp continues
+
+## Project Team
+    - NU FINTECH
+        - Javier Mendez, Grant DePalma, Dave Rea, Subbaiah Kotha
+    
+
+## Repository Introduction
 This GitHub repository contains the code for an algorythm that can be used in quantopian. The returns in the algorythm in its current state are not as optimal as possible, but the structure for an investment strategy that involves both longs and shorts that is done with technical analysis of common financial metrics is there to be modified according to the desired positions of the user. Using simple metrics like Closing Price, Simple Moving Average, and Historical Returns, we were able to outperform "common returns" on Quantopian, which means that we were able to outperform others who were using these same "factors" in their algorythms. In the future, this can be expanded upon to use much more complicated analysis, as well as optimized with machine learning. 
 
 Additionally, we designed this to be compatible with Alpaca, a trading platform that allows you to use Python/Quantopian/Pandas to create automated trading strategies. This was done with pyvlivetrading to help make the transition as smooth as possible to Alpaca. While our Quantopian algorythm executes weekly, the Alpaca one is set to run daily to demonstrate its capabilities. 
@@ -29,54 +69,24 @@ If you are interested in using an algorythm to develop an investment strategy, p
 
 Most importantly, this is a way to demonstrate how useful Quantopian can be for someone trying to develop an investment strategies with little knowledge of how to use API's. During our time on this project we were able to focus much more on the trading and finance aspect of the strategy, and less on the gathering of the data--which I am sure can be greatly appreciated by all those who work in Data Science/Analysis. 
 
-## Tools
-* Alpaca
-
-* Quantopian 
-
-* Python
-
-* Pandas
-
-## Methodology
-
-1. Quantitative Research Notebook in Quantopian
-2. Backtest Pipeline/Algorithm 
-3. Translate quantopian algorithm to pylivetrader
-4. Connect Alpaca account to algorithm
-5. Run algorithm in command Line
-6. Monitor Results on Alpaca Interface
 
 We followed these steps in order to create the algorythm and then move it over to Alpaca. 
 
-### Team
-
-Javier Mendez, Grant DePalma, Dave Rea, Subbaiah Kotha.
-
-**Group 1:**  
-Javier and Subbaiah  
-
-**Quantopian**
-
-**Group 2:**  
-Grant and Dave  
-
-**Alpaca**
 
 ### Version 1.0.0
 
 Live Date: June 18, 2020
 
-Goals:
+Team Goals:
 1. In groups of 2, develop the Alpaca and Quantopian aspects of the project for the first week of the project. 
 2. Meet halfway on June 13 after structure has been created to finalize the structure and begin testing to optimize results in an attempt to beat common returns. 
 3. On June 16, make finishing touches and final changes to ensure profitability and over-performance relative to other algorythms using similar factors. 
 
 ## Results
+![quantopian_returns](Images/returns-final.JPG)
+![Image of Returns](Images/numbers-final.JPG)
 
-[Image of Returns](Images/numbers-final.JPG)
-
-[Image of Tearsheet from Research (broken into quantiles)](Images/tearsheet.png)
+![Image of Tearsheet from Research (broken into quantiles)](Images/tearsheet.png)
 
 ## Alpaca Implementation
 ### Setup Requirements
@@ -101,6 +111,10 @@ Goals:
 * As of 6.17.20, Pylivetrader must be restarted at least once every 24 hours but I found that to be considerably more frequently for this exercise
 * There's currently no clean way to parse out multiple algorithms running concurrently within the Alpaca UI
 
+
+## Creative Resources
+![Strategy Spectrum](Images/strategy_spectrum.png)
+![Strategy Design](Images/design_cycle.png))
 
 
 ## Resources: 
