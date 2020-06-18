@@ -15,7 +15,7 @@ The purpose of this project is to successfully build a foundational quantitative
 ## Costs
     - Time spent on factor research
     - Time spent building algorithms
-    - Time spent translating quantopian algorithms to a format that can be executed in Alpace
+    - Time spent translating quantopian algorithms to a format that can be executed in Alpaca
     - Normal costs of investing, all the tools involved are free
 
 ## Tools
@@ -24,7 +24,7 @@ The purpose of this project is to successfully build a foundational quantitative
 [Quantopian Notebooks](https://www.quantopian.com/notebooks)  
 [Quantopian Algorithms](https://www.quantopian.com/algorithms)  
 [Visual Studio](https://visualstudio.microsoft.com/)  
-[Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/)  j
+[Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/)  
 
 ## Methodology
 1. Quantitative Research Notebook in Quantopian
@@ -112,13 +112,20 @@ Team Goals:
 * There's currently no clean way to parse out multiple algorithms running concurrently within the Alpaca UI
 
 
+## Areas to improve
+    - Potential clunkiness  in pylivetrader. Consider translating to blueshift instead.
+    - Limited by Market Data and availability. Find workarounds. 
+    - Add Machine Learning techniques to finding quantitative relationships
+    - Create a performance analysis notebook to analyze live results 
+    - Create automated email reports with performance analysis
+
+
 ## Creative Resources
 ![Strategy Spectrum](Images/strategy_spectrum.png)
 ![Strategy Design](Images/design_cycle.png))
 
 
 ## Resources: 
-[Article on Multi Factor Small Beta](https://www.quantopian.com/posts/multi-factor-smart-beta-strategy-you-can-actually-use-with-confidence)
+[Article on Multi Factor Small Beta](https://www.quantopian.com/posts/multi-factor-smart-beta-strategy-you-can-actually-use-with-confidence)  
 
-[How to put a Quantopian Pipeline into Alpaca](https://alpaca.markets/docs/alpaca-works-with/quantopian-to-pipeline-live/
-)
+[How to put a Quantopian Pipeline into Alpaca](https://alpaca.markets/docs/alpaca-works-with/quantopian-to-pipeline-live/)  
